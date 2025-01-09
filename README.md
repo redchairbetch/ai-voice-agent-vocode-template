@@ -11,11 +11,11 @@ To set up the AI Voice Agent, follow these steps:
 3. Fork and import [this repository](https://github.com/jannismoore/ai-voice-agent-vocode-template) within Render.com.
 4. Once done, Render will automatically set most of the values for you. You can customize the Region as you wish.
 5. Set the following environment variables: 
-    - `OPENAI_API_KEY`: Set this to your OpenAI API key.
+    - `OPENAI_API_KEY`: org-B9WXRxeReAqOdnDHUhJDytaN
     - `TRANSCRIPT_CALLBACK_URL`: Set this to the URL you want to call once a call was completed.
-    - `TWILIO_ACCOUNT_SID`: Your Twilio Account ID.
-    - `TWILIO_AUTH_TOKEN`: Your Twilio Auth token.
-    - `DEEPGRAM_API_KEY`: The API key for your Deepgram Acccount.
+    - `TWILIO_ACCOUNT_SID`: AC5cdaab27874b2965894548f87898415e
+    - `TWILIO_AUTH_TOKEN`: e383c588ee1c682ba5cbecce9dffd47f
+    - `DEEPGRAM_API_KEY`: afa3aaab595499bc5c87788b9c37354ccce9593e
 6. Once the app is deployed successfully, copy the Render.com URL and add `/inbound_call` at the end of it
 7. Paste that URL into the Webhook field of your Twilio Phone Number
 
